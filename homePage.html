@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>HomePage</title>
+        <!-- Diğer kodlar -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+        <h1>Persian Catring</h1>
+    </head>
+    <body style="background-color: rgb(187, 87, 21); color: aliceblue;">
+
+        <!-- Diğer kodlar -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" >
+        <i class="fa fa-home"></i>
+        <ul class="nav nav-tabs bg-light">
+            <li class="nav-item"> <a class="nav-link" href="homePage.html">HomePage</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="booking.html" target="_blank">Booking</a> </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Food Photos</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Khorosht</a>
+                <a class="dropdown-item" href="#">Pilav</a>
+                <a class="dropdown-item" href="#">Soops</a>
+            </div>
+
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="#">connect</a> </li>
+            </ul>
+
+                <div id="galeri" class="carousel slide" data-ride="carousel">
+                <!-- <ul> elemanı resim geçişlerini yönetmek için çizgi şeklinde işaretçilerin eklenildiği
+                 bölümdür. <li> elemanları ile çizgiler eklenir. Her resim için bir işaretçi eklenmelidir.-->
+                <ul class="carousel-indicators">
+                <li data-target="#galeri" data-slide-to="0" class="active"></li>
+                <li data-target="#galeri" data-slide-to="1"></li>
+                <!-- Galerideki resim sayısına göre <li> etiketi eklenmelidir.-->
+                </ul>
+                 
+                <div class="carousel-inner"><!-- Galeri resimlerinin ve metinlerinin eklendiği bölümdür. -->
+                <div class="carousel-item active"><!--İlk gösterilecek resim için active sınıfı eklenir.-->
+                <img src="1.jpg" width="1000" height="500">
+                <div class="carousel-caption">
+                <h3>Halim</h3> <p>30 TL</p>
+                </div>
+                </div>
+
+                <div class="carousel-item">
+                <img src="2.jpg" width="1000" height="500">
+                <div class="carousel-caption">
+                <h3>Zereshk Polo ba Morgh</h3> <p>75 TL </p>
+                </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="3.jpg" width="1000" height="500">
+                    <div class="carousel-caption">
+                    <h3>Kuko</h3> <p>65 TL </p>
+                    </div>
+                    </div>
+
+
+                 <!-- Diğer eklenecek resimlerin kodları buraya yazılabilir.-->
+                 </div>
+                 <a class="carousel-control-prev" href="#galeri" data-slide="prev">
+                 <span class="carousel-control-prev-icon"></span> <!-- Önceki resmi gösterme butonu -->
+                 </a>
+                 <a class="carousel-control-next" href="#galeri" data-slide="next">
+                 <span class="carousel-control-next-icon"></span> <!-- Sonraki resmi gösterme butonu -->
+                 </a>
+                 </div>
+                 
+    </body>
+</html>
